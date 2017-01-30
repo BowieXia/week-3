@@ -17,4 +17,25 @@ var myArray = [1, 10, 100, 1000];
 _.each(myArray, function(value, key, list) {
   console.log(value, key, list);
 });
-===================== */
+ ===================== */
+
+// For-loop One:
+/*
+var filterOutLessThan10 = function(List) {
+  var ListOver10=[];
+  for (var i = 0; i < List.length; i++) {
+    if (List[i] > 10) {
+      ListOver10.push(List[i]);
+    }
+  }
+  return ListOver10;
+};
+*/
+//Plus one function
+_.each([1,2,3,4,5,6,7,8],function(list){
+  console.log(list+1);
+});
+//Calculating age function
+_.each([1956,1967,1978,1989,1993,1999,2008,2014],function(list){
+  console.log(2017-list);
+});
